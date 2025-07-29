@@ -1,0 +1,68 @@
+[debug] [2025-07-29T06:55:17.093Z] ----------------------------------------------------------------------
+[debug] [2025-07-29T06:55:17.096Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aksha\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-07-29T06:55:17.097Z] CLI Version:   14.11.1
+[debug] [2025-07-29T06:55:17.097Z] Platform:      win32
+[debug] [2025-07-29T06:55:17.097Z] Node Version:  v22.17.1
+[debug] [2025-07-29T06:55:17.097Z] Time:          Tue Jul 29 2025 12:25:17 GMT+0530 (India Standard Time)
+[debug] [2025-07-29T06:55:17.098Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-07-29T06:55:17.106Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-29T06:55:17.106Z] > authorizing via signed-in user (akshaiselfofficial@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\app\eco-friendly-app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-07-29T06:56:07.549Z] Checked if tokens are valid: true, expires at: 1753775568644
+[debug] [2025-07-29T06:56:07.550Z] Checked if tokens are valid: true, expires at: 1753775568644
+[debug] [2025-07-29T06:56:07.552Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-07-29T06:56:13.090Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-07-29T06:56:13.090Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project eco-friendly-app-6f373 (eco-friendly-app) 
+[info] 
+=== Hosting Setup
+[debug] [2025-07-29T06:56:20.925Z] Checked if tokens are valid: true, expires at: 1753775568644
+[debug] [2025-07-29T06:56:20.925Z] Checked if tokens are valid: true, expires at: 1753775568644
+[debug] [2025-07-29T06:56:20.926Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/eco-friendly-app-6f373 [none]
+[debug] [2025-07-29T06:56:25.079Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/eco-friendly-app-6f373 200
+[debug] [2025-07-29T06:56:25.079Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/eco-friendly-app-6f373 {"projectId":"eco-friendly-app-6f373","projectNumber":"260668819785","displayName":"eco-friendly-app","name":"projects/eco-friendly-app-6f373","resources":{"hostingSite":"eco-friendly-app-6f373"},"state":"ACTIVE","etag":"1_a0e6879e-4020-4277-b0a3-5637329c5ddc"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2025-07-29T06:57:31.895Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2025-07-29T06:57:34.235Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2025-07-29T06:57:34.235Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"12.0.0","browserURL":"https://www.gstatic.com/firebasejs/12.0.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/12.0.0/firebase.tgz"},"live":{"version":"12.0","browserURL":"https://www.gstatic.com/firebasejs/live/12.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/12.0/firebase.tgz"},"components":{"ai":"https://www.gstatic.com/firebasejs/12.0.0/firebase-ai.js","analytics":"https://www.gstatic.com/firebasejs/12.0.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/12.0.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/12.0.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/12.0.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/12.0.0/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/12.0.0/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/12.0.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/12.0.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/12.0.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/12.0.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/12.0.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/12.0.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/12.0.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/12.0.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/12.0.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/12.0.0/firebase-database.js","data-connect":"https://www.gstatic.com/firebasejs/12.0.0/firebase-data-connect.js","firestore.memory":"https://www.gstatic.com/firebasejs/12.0.0/firebase-firestore.memory.js"}}
+[info] +  Wrote src/app/index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming D:\app\eco-friendly-app is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=509214698&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2025-07-29T06:57:55.397Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2025-07-29T06:57:55.397Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2025-07-29T06:57:57.384Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2025-07-29T06:57:57.385Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2025-07-29T06:57:57.401Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2025-07-29T06:57:59.577Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2025-07-29T06:57:59.578Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"Akshai-max","id":159137977,"node_id":"U_kgDOCXxAuQ","avatar_url":"https://avatars.githubusercontent.com/u/159137977?v=4","gravatar_id":"","url":"https://api.github.com/users/Akshai-max","html_url":"https://github.com/Akshai-max","followers_url":"https://api.github.com/users/Akshai-max/followers","following_url":"https://api.github.com/users/Akshai-max/following{/other_user}","gists_url":"https://api.github.com/users/Akshai-max/gists{/gist_id}","starred_url":"https://api.github.com/users/Akshai-max/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Akshai-max/subscriptions","organizations_url":"https://api.github.com/users/Akshai-max/orgs","repos_url":"https://api.github.com/users/Akshai-max/repos","events_url":"https://api.github.com/users/Akshai-max/events{/privacy}","received_events_url":"https://api.github.com/users/Akshai-max/received_events","type":"User","user_view_type":"private","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"notification_email":null,"public_repos":4,"public_gists":0,"followers":0,"following":1,"created_at":"2024-02-06T11:32:50Z","updated_at":"2025-07-21T15:52:03Z","private_gists":0,"total_private_repos":7,"owned_private_repos":7,"disk_usage":25329,"collaborators":2,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as Akshai-max 
+[info] 
